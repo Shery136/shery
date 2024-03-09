@@ -12,7 +12,7 @@ import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
     print("\n\x1b[1;92m Your Device Support This Tool")
-    from ee import menu___
+    from mm import menu___
     menu___()
 elif bit == '32bit':
     print("\n\x1b[1;92m Your Device Not Support This Tool")
